@@ -20,3 +20,9 @@ Route::get('/create', [IngredientController::class, 'create'])->name('create');
 Route::post('/store/aliment', [IngredientController::class, 'store'])->name('store.ingredient');
 Route::get('/ingredient/{id}', [IngredientController::class, 'show'])->name('show.ingredient');
 Route::get('/delete/{id}', [IngredientController::class, 'delete'])->name('delete.aliment');
+
+/*
+Route::get('edit/{id}, [Inged::class, 'edit])
+Route::post('update/{id}[ingred::class, 'update'])
+
+*/

@@ -32,3 +32,17 @@ class IngredientController extends Controller
         return redirect()-> route('home');
     }
 }
+
+/*   public function edit($id){
+        $edit= Member::find($id);
+        return view ('pages.edit, compact('edit))
+
+
+    public function update (Request $request, $id){
+        $update= Member::find($id);
+        $update->name= $request->name;
+        $update->save();
+        return redirect('/');
+
+    }
+    */ 

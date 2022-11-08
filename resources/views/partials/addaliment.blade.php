@@ -1,4 +1,4 @@
-<section>
+
     <section>
         <h1> ajouter aliment</h1>
             <div class="container d-flex justify-content-center gap-2">
@@ -28,4 +28,14 @@
                 </form>
         </div>
         </section>
-</section>
+
+
+<!--
+
+form action: /update/{{ $edit->id }}
+
+button ->
+href={{ "edit/".$aliment['id'] }}
+
+valeur de base dans value de l'input -> {{ $edit->valeur }} exemple href={{ $edit->nom }}
+-->
